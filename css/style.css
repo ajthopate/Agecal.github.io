@@ -1,0 +1,79 @@
+
+
+.back-video{
+    
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(black,black);
+    opacity: 90%;
+}
+
+.content {
+    position:absolute ;
+   left: 29%;
+    top: 50%;
+    width: 600px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffff;
+    background: rgba(2, 0, 0, 0.7);
+    border-radius: 30px;
+}
+ .content h1{
+    font-size: 50px;
+    position: relative;
+    margin-top: 40px;
+      
+}
+
+.input{
+    position: relative;
+    align-content: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+    justify-content: center;
+   margin-top: 0px;
+   text-align: center;
+   
+    
+}
+
+.content p{
+    margin : 10px ;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+ .btn{
+    background-color: rgb(150, 150, 150);
+    color: black;
+
+}
+
+
+.input{
+    text-align: center;
+    
+}
+@media(min-aspect-ratio:16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media(max-aspect-ratio:16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
